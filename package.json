@@ -9,16 +9,23 @@
 		"lint": "next lint"
 	},
 	"dependencies": {
+		"next": "14.2.3",
 		"react": "^18",
-		"react-dom": "^18",
-		"next": "14.2.3"
+		"react-dom": "^18"
 	},
 	"devDependencies": {
-		"typescript": "^5",
 		"@types/node": "^20",
 		"@types/react": "^18",
 		"@types/react-dom": "^18",
 		"eslint": "^8",
-		"eslint-config-next": "14.2.3"
+		"eslint-config-next": "14.2.3",
+		"prettier": "^3.2.5",
+		"stylelint": "^16.5.0",
+		"stylelint-config-clean-order": "^5.4.2",
+		"stylelint-config-standard-scss": "^13.1.0",
+		"stylelint-order": "^6.0.4",
+		"stylelint-prettier": "^5.0.0",
+		"stylelint-scss": "^6.3.0",
+		"typescript": "^5"
 	}
 }
